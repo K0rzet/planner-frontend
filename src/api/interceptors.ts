@@ -8,7 +8,7 @@ import {
 import { authService } from '@/services/auth.service'
 
 const options: CreateAxiosDefaults = {
-	baseURL: 'http://api.planner.ilyacode.ru/api',
+	baseURL: 'https://api.planner.ilyacode.ru/api',
 	headers: {
 		'Content-Type': 'application/json'
 	},
